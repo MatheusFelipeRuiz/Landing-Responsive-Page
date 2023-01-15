@@ -1,0 +1,57 @@
+.header {
+    width: 100vw;
+    height: 90px;
+    box-shadow: 2px 0px 10px gray;
+
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;  
+    
+    .check-menu {
+        i {
+            display: none;
+        }
+    }
+
+    .navbar-brand {
+        padding: 1em 2em;
+        color: $red;
+        font-size: 30px;
+        font-weight: 500 ;
+        font-family: 'Poppins', sans-serif;
+        span {
+            color: $dark;
+        }
+    }
+}
+
+.menu {
+    display: none;
+}
+
+.navbar-nav {
+    display: flex;
+    .nav-item {
+        margin: 30px 2em 0 2em;
+        .nav-link {
+            font-size: 20px;
+            font-weight: 400 ;
+            font-family: 'Poppins', sans-serif;
+            color: $dark;
+        
+            &:hover {
+                color: $red;
+            }
+        }
+    }
+    i {
+        margin: 30px 1em 30px 1em;
+        font-size: 30px;
+        &:hover {
+            cursor: pointer;
+            color: $red;
+        }
+    }
+}
